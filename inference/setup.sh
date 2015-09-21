@@ -4,12 +4,12 @@
 
 # create simulinks
 # caffe
-ln -s ../caffe
+ln -s ../../caffe
 ln -s ../model/DeconvNet
 ln -s ../model/FCN
 
 # download necessary data for inference
-cd data
+cd ../../data
 # VOC2012 test data
 wget http://cvlab.postech.ac.kr/research/deconvnet/data/VOC2012_TEST.tar.gz
 tar -zxvf VOC2012_TEST.tar.gz
