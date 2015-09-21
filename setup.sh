@@ -1,8 +1,10 @@
 # get caffe (you should compile this caffe library with your own Makefile.config file)
+cd ..
 git clone https://github.com/HyeonwooNoh/caffe.git
+cd DeconvNet
 
 # get data
-cd data
+cd ../data
 ./get_data.sh
 cd ..
 
