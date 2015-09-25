@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 net: "./stage_1_train_deconv2conv.prototxt"
+=======
+net: "./stage_1_train.prototxt"
+>>>>>>> origin/master
 base_lr: 0.01
 lr_policy: "step"
 stepsize: 2000
@@ -11,5 +15,9 @@ weight_decay: 0.0005
 test_interval: 500
 test_iter: 300
 snapshot: 500
+<<<<<<< HEAD
 snapshot_prefix: "./snapshot/stage_1_train_deconv2conv"
+=======
+snapshot_prefix: "./snapshot/stage_1_train"
+>>>>>>> origin/master
 solver_mode: GPU
