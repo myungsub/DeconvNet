@@ -1,4 +1,4 @@
-net: "./stage_1_train.prototxt"
+net: "./stage_1_train_deconv2conv.prototxt"
 base_lr: 0.01
 lr_policy: "step"
 stepsize: 2000
@@ -11,5 +11,5 @@ weight_decay: 0.0005
 test_interval: 500
 test_iter: 300
 snapshot: 500
-snapshot_prefix: "./snapshot/stage_1_train"
+snapshot_prefix: "./snapshot/stage_1_train_deconv2conv"
 solver_mode: GPU
